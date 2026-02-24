@@ -1,0 +1,10 @@
+/* App Styles */
+
+.app {
+  background-color: var(--accent-cream);
+}
+
+.main-content {
+  min-height: calc(100vh - 400px);
+  animation: fadeIn 0.3s ease-out;
+}

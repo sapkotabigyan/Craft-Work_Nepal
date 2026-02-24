@@ -1,0 +1,23 @@
+{
+  "name": "kalabazzer",
+  "version": "1.0.0",
+  "description": "KalaBazzer - Online Art & Craft Store",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix Backend && npm install --prefix Client && npm install --prefix Admin",
+    "dev:backend": "npm run dev --prefix Backend",
+    "dev:client": "npm run dev --prefix Client",
+    "dev:admin": "npm run dev --prefix Admin",
+    "start:backend": "npm start --prefix Backend",
+    "build:client": "npm run build --prefix Client",
+    "build:admin": "npm run build --prefix Admin"
+  },
+  "keywords": [
+    "art",
+    "craft",
+    "ecommerce",
+    "store"
+  ],
+  "author": "",
+  "license": "ISC"
+}

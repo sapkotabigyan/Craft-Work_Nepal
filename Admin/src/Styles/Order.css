@@ -1,0 +1,93 @@
+.orders-container {
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  margin-left: 18%;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.search-export {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  width: 70%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.export-btn {
+  padding: 10px 20px;
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-table th,
+.orders-table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.method {
+  font-size: 0.9em;
+  color: #6b7280;
+}
+
+.email {
+  font-size: 0.85em;
+  color: #9ca3af;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.9em;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.status.completed {
+  background-color: #d1fae5;
+  color: #059669;
+}
+
+.status.processing {
+  background-color: #dbeafe;
+  color: #2563eb;
+}
+
+.status.shipped {
+  background-color: #f3e8ff;
+  color: #9333ea;
+}
+
+.status.pending {
+  background-color: #fef9c3;
+  color: #ca8a04;
+}
+
+.status.cancelled {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+.view-icon {
+  font-size: 18px;
+  cursor: pointer;
+}
