@@ -54,7 +54,7 @@ Client/
 
 ### 1. **Page Components** (6 new files)
 
-| File                              | Purpose                                                         | Lines |
+|                             | Purpose                                                         | Lines |
 | --------------------------------- | --------------------------------------------------------------- | ----- |
 | `src/pages/Home.jsx`              | Landing page with hero, features, categories, testimonials, CTA | 140   |
 | `src/pages/Products.jsx`          | Product listing with search, category filters, API integration  | 173   |
