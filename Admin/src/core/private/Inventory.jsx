@@ -18,7 +18,7 @@ const InventorySection = () => {
   const [inventory, setInventory] = useState([]);
   const [inventoryItems, setInventoryItems] = useState([]);
   useEffect(() => {
-    // Fetch inventory items from API or state management
+    
     const fetchInventory = async () => {
       try {
         const response = await getAllProducts();

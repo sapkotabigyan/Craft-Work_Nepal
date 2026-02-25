@@ -2,7 +2,7 @@
 # Quick Start Script for KalaBazzer
 # This script can be run to help set up the environment
 
-echo "🎨 Welcome to KalaBazzer Quick Start!"
+echo "🎨 Welcome to Craft Work Nepal Quick Start!"
 echo "========================================"
 echo ""
 echo "This guide will help you get the application running."

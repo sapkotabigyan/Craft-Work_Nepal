@@ -1,4 +1,4 @@
-# KalaBazzer - Testing Guide
+# Craft Work Nepal - Testing Guide
 
 Complete testing guide for the KalaBazzer ecommerce platform.
 

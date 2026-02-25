@@ -1,6 +1,6 @@
-# KalaBazzer - Complete Setup Guide
+# Craft Work Nepal - Complete Setup Guide
 
-Welcome to KalaBazzer! This guide will help you set up and run the complete ecommerce application (Admin Panel + Client Application + Backend API).
+Welcome to Craft Work Nepal! This guide will help you set up and run the complete ecommerce application (Admin Panel + Client Application + Backend API).
 
 ## 📋 Prerequisites
 
