@@ -1,7 +1,7 @@
 {
-  "name": "kalabazzer",
+  "name": "Craft Work Nepal",
   "version": "1.0.0",
-  "description": "KalaBazzer - Online Art & Craft Store",
+  "description": "Craft Work Nepal - Online Art & Craft Store",
   "private": true,
   "scripts": {
     "install:all": "npm install --prefix Backend && npm install --prefix Client && npm install --prefix Admin",
