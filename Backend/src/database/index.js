@@ -10,13 +10,13 @@ const sequelize = new Sequelize(
   {
     host: process.env.DB_HOST,
     port: process.env.DB_PORT || 5432,
-    dialect: "postgres", // other example mysql,oracle,h2
+    dialect: "postgres", 
   },
 );
 
 const db = async () => {
   try {
-    // Import models after sequelize is created to avoid circular dependencies
+   
     require("../models");
     await sequelize.sync(); // Only create tables if they don't exist, don't drop existing ones
 

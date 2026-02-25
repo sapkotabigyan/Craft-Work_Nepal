@@ -118,7 +118,7 @@ ORDER BY table_schema, table_name;
 
 
 -- =============================================================================
--- SECTION 3: CREATE SAMPLE DATABASE WITH RELATED TABLES
+-- SECTION 3: CREATE SAMPLE DATABASE WITH RELATED TABLE
 -- =============================================================================
 -- We will create a database named "kalabazzer_db" representing an online
 -- handicraft marketplace. The schema includes:
