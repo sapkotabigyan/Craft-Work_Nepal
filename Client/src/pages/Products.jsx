@@ -54,7 +54,7 @@ export default function Products({ onAddToCart }) {
       );
     }
 
-    // Filter by search term
+    
     if (searchTerm) {
       filtered = filtered.filter(
         (p) =>
