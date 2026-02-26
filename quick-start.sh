@@ -1,6 +1,6 @@
 #!/bin/bash
-# Quick Start Script for KalaBazzer
-# This script can be run to help set up the environment
+# Quick Start Script for KalaBazzer (Craft Work Nepal)
+# This script helps set up the development environment
 
 echo "🎨 Welcome to Craft Work Nepal Quick Start!"
 echo "========================================"

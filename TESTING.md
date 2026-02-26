@@ -1,6 +1,6 @@
 # Craft Work Nepal - Testing Guide
 
-Complete testing guide for the KalaBazzer ecommerce platform.
+Comprehensive testing guide for the KalaBazzer ecommerce platform.
 
 ## 🧪 Pre-Test Checklist
 
