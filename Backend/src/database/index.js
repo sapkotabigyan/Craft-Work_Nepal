@@ -18,7 +18,7 @@ const db = async () => {
   try {
    
     require("../models");
-    await sequelize.sync(); // Only create tables if they don't exist, don't drop existing ones
+    await sequelize.sync(); // Only create tables if they don't exist, don't drop existing onces
 
     // Import models
     const { User } = require("../models/index");
