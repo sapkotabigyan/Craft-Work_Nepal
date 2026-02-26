@@ -5,7 +5,7 @@ const API_BASE_URL = "http://localhost:4000";
 // Create axios instance with default timeout to prevent infinite loading state
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 15000, // 15 second timeout
+  timeout: 15000, // 15 seconds timeout
 });
 
 const authAPI = {
