@@ -19,7 +19,7 @@ const getAll = async (req, res) => {
 };
 
 /**
- *  create new user
+ *  create new users
  */
 
 const create = async (req, res) => {
