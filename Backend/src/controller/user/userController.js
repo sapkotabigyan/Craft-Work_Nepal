@@ -48,7 +48,7 @@ const create = async (req, res) => {
       password: hashedPassword,
     });
 
-    // Generate token for the new user
+    // Generate token for the new user 
     const token = generateToken({ user: newUser.toJSON() });
 
     // Return user and token
