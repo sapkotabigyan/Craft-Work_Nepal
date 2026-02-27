@@ -19,7 +19,7 @@ const authAPI = {
     return apiClient.post(`/api/auth/login`, { email, password });
   },
 
-  // Get current user
+ 
   getCurrentUser: () => {
     const token = localStorage.getItem("token");
     if (!token) return null;
