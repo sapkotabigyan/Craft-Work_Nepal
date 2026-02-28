@@ -14,7 +14,7 @@ const authAPI = {
     return apiClient.post(`/api/auth/register`, userData);
   },
 
-  // Login user
+  // Login user 
   login: (email, password) => {
     return apiClient.post(`/api/auth/login`, { email, password });
   },
