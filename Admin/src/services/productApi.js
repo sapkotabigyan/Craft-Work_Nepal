@@ -3,7 +3,7 @@ import axios from "axios";
 const API_URL = "http://localhost:4000/api/product/upload";
 
 export const uploadProduct = async (formData) => {
-  // formData should be a FormData object
+  // formData should be a FormData object 
   return axios.post(API_URL, formData, {
     headers: {
       "Content-Type": "multipart/form-data",
