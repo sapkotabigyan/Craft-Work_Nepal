@@ -14,7 +14,7 @@ export const getAllCategories = async () => {
   return response.json();
 };
 
-// Get category by ID
+// Get category by  ID
 export const getCategoryById = async (id) => {
   const token = localStorage.getItem("authToken");
   const response = await fetch(`${API_URL}/${id}`, {
