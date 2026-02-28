@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Eye, EyeOff, Shield, User, Lock } from "lucide-react";
 import "../../Styles/Adminlogin.css";
 
-// Custom useForm hook
+// Custom useForm hook for handling from and validation
 const useCustomForm = (initialValues, validate) => {
   const [values, setValues] = useState(initialValues);
   const [errors, setErrors] = useState({});
