@@ -40,6 +40,9 @@ const getProductByCategory = async (req, res) => {
     });
     res.status(200).json(result);
   } catch (error) {
+    if (error.name === "SequelizeConnectionRefusedError" || error.name === "SequelizeConnectionError" || error.parent?.code === "ECONNREFUSED") {
+      return res.status(503).json({ message: "Database is unavailable. Please try again later." });
+    }
     res
       .status(500)
       .json({ message: "Error fetching products", error: error.message });
@@ -91,6 +94,9 @@ const addProduct = async (req, res) => {
     return res.status(201).json({ message: "Product added successfully." });
   } catch (error) {
     console.log("Error in addProduct function", error);
+    if (error.name === "SequelizeConnectionRefusedError" || error.name === "SequelizeConnectionError" || error.parent?.code === "ECONNREFUSED") {
+      return res.status(503).json({ message: "Database is unavailable. Please try again later." });
+    }
     return res
       .status(500)
       .json({ success: false, message: "Internal Server Error" });
@@ -129,6 +135,9 @@ const getAllProducts = async (req, res) => {
 
     res.status(200).json(result);
   } catch (error) {
+    if (error.name === "SequelizeConnectionRefusedError" || error.name === "SequelizeConnectionError" || error.parent?.code === "ECONNREFUSED") {
+      return res.status(503).json({ message: "Database is unavailable. Please try again later." });
+    }
     res
       .status(500)
       .json({ message: "Error fetching products", error: error.message });
@@ -153,6 +162,9 @@ const deleteProduct = async (req, res) => {
     res.status(200).json({ message: "Product deleted successfully" });
   } catch (error) {
     console.error("Error deleting product:", error);
+    if (error.name === "SequelizeConnectionRefusedError" || error.name === "SequelizeConnectionError" || error.parent?.code === "ECONNREFUSED") {
+      return res.status(503).json({ message: "Database is unavailable. Please try again later." });
+    }
     res.status(500).json({ message: "Internal server error" });
   }
 };
