@@ -89,7 +89,7 @@ FROM pg_catalog.pg_tables
 WHERE schemaname NOT IN ('pg_catalog', 'information_schema')
 ORDER BY schemaname, tablename;
 
--- Method 3: List tables with column count and row estimate
+-- Method 3: List tables with column count and  row estimate
 SELECT
     t.table_schema                          AS schema_name,
     t.table_name,
