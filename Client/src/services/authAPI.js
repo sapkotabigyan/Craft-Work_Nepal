@@ -34,7 +34,7 @@ const authAPI = {
     localStorage.removeItem("user");
   },
 
-  // Get user from localStorage
+  // Get user from localstorage
   getStoredUser: () => {
     const user = localStorage.getItem("user");
     return user ? JSON.parse(user) : null;

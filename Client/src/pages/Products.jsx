@@ -66,7 +66,7 @@ export default function Products({ onAddToCart }) {
     setFilteredProducts(filtered);
   }, [selectedCategory, searchTerm, products]);
 
-  const handleAddToCart = (product) => {
+  const handleAddToCart = (product, event) => {
     onAddToCart(product);
     // Show a brief feedback
     const btn = event.target;
